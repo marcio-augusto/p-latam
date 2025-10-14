@@ -1,0 +1,94 @@
+.tree ul ul {
+	padding-left: 28px;
+}
+
+.tree li:last-child::before {
+	height: 11px;
+}
+
+.tree li:before {
+	top: -0px;
+}
+
+.tree ul ul {
+	padding-top: 0px;
+}
+
+.smart-form .checkbox i, .smart-form .radio i {
+	top: -1px;
+	width: 13px;
+	height: 13px;
+}			
+
+.smart-form .checkbox input+i:after {
+	top: -1px;
+	left: 0px;
+	width: 11px;
+	height: 11px;
+	font: 400 13px/16px FontAwesome;
+}
+
+.smart-form .checkbox, .smart-form .radio {
+	margin-bottom: 4px;
+	padding-left: 20px;
+	line-height: 13px;
+}
+
+.tree li:after {
+	top: 10px;
+}
+
+.icon {
+	float: left;
+	margin-top: 4px; 
+	margin-left: 2px; 
+	margin-right: 5px;
+}
+
+.icone-item-menu {
+	margin-top: 6px;
+	font-size: 14px;
+}
+
+.tree div.custom-checkbox label i.icon {
+	margin-top: 6px !important;
+	margin-left: -2px;
+}
+
+.texto-item-menu {
+	line-height: 22px; 
+	font-size: 17px;
+}
+
+.texto-item-menu-modulo-com-acao {
+	margin-left: 1px; 
+	line-height: 22px; 
+	vertical-align: middle; 
+	font-size: 17px !important;
+	color: #666 !important;
+}
+
+.tree ul ul > li:first-child {
+	/*margin-top: 4px;*/	
+}
+
+.tree ul ul > li:first-child::before {
+	height: 130%;
+	top: -1px;	
+}
+
+.tree ul ul > li:first-child:last-child::before {
+	height: 11px;
+}
+
+.paiSemAcao {
+	margin-top: -4px; 
+}
+
+.paiComAcao label:first-child  {
+	margin-left: 22px;
+}
+
+.tree i.botaoArvore {
+	cursor: pointer;
+}

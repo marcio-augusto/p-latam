@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+span.select2-container.select2-container--default.select2-container--open{
+	z-index: 100000;
+}
+
+form#employeeForm #general div.top.dom-elements.row.d-flex.align-items-center, form#employeeForm #general table#employeeSkillTable{
+	position: relative;
+	top: 20px;
+}
+
+#document div.top.dom-elements.row.d-flex.align-items-center{
+	display: none !Important;
+}
+
+form#employeeForm #cpfFile, form#employeeForm #rgFile {
+	height: 50px !Important;
+	width: 50px !Important;
+	min-height: inherit !Important;
+	padding: 0 !important;
+}
+
+form#employeeForm #cpfFile .dz-image-preview, form#employeeForm #rgFile .dz-image-preview {
+	background: #fff;
+	width: 100%;
+    padding: 2px !important;
+    border-radius: 10px !important;
+}
+
+form#employeeForm #cpfFile .dz-image, form#employeeForm #rgFile .dz-image {
+	position: unset;
+    width: 100% !Important;
+    height: 100% !Important;
+    border: none !Important;
+}
+
+form#employeeForm #cpfFile img, form#employeeForm #rgFile img {
+	height: 32px;
+	width: 32px;
+}
+
+.modal{
+	overflow: auto;
+}
+
+
+@media only screen and (min-width: 992px){
+	div#general div.custom-control.custom-checkbox{
+		position: relative;
+	    top: 32px;
+	}
+}

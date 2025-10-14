@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+.image-upload.dropzone * {
+	cursor: pointer;
+}
+
+.image-upload.dropzone {
+	border: 2px dashed rgba(0,0,0,0.3) !important;
+	border-radius: 10px;
+	margin: 0 auto;
+	min-height: inherit !important;
+	padding: 0 !important;
+	background-image: url('../../../../../img/icon/upload.png');
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 32px;
+}
+
+.image-upload {
+	width: 114px !important;
+	height: 114px !important;
+}
+
+.image-upload .dz-message {
+	display: none !important;
+}
+
+.image-upload .dz-preview, 
+.image-upload-previews .dz-preview {
+	background: rgba(255, 255, 255, .8) !important;
+	vertical-align: top;
+	width: 100% !important;
+	height: 100% !important;
+	border: 0px solid;
+	border-radius: 10px;
+	text-align: center;
+	padding: 2px;
+	margin: 0 !important;
+	min-height: inherit;
+}
+
+.image-upload .dz-preview .dz-error-mark, 
+.image-upload .dz-preview .dz-success-mark,
+.image-upload .dz-preview .dz-error-mark,
+.image-upload .dz-preview .dz-progress,
+.image-upload-previews .dz-preview .dz-error-mark,
+.image-upload-previews .dz-preview .dz-success-mark,
+.image-upload-previews .dz-preview .dz-success-mark .dz-error-mark {
+	display: none;
+}
+
+.image-upload .dz-preview .dz-details {
+	display: none;
+}
+
+.image-upload .dz-preview .dz-image {
+	position: unset;
+	width: 100% !important;
+	height: 100%;
+}
+
+.image-upload .dz-preview .dz-image img {
+	width: 100%;
+	height: 100%;
+	border: 0px solid;
+	border-radius: 10px;
+}
+
+.dropzone .dz-remove {
+	display: unset !important;
+    color: #f93030;
+    background: #fff;
+    padding-top: 3px;
+    padding-right: 2px;
+	padding-bottom: 1px;
+    padding-left: 2px;
+    border-radius: 10px;
+}
+
+.dropzone .dz-remove i {
+	font-size: 15px;
+}
+
+.dropzone .dz-remove:hover {
+	opacity: 0.6 !important;
+}

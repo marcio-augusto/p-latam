@@ -1,0 +1,12 @@
+
+
+table#projectUserTable td img{
+	height: 50px;
+}
+
+@media only screen and (min-width: 992px){
+	form#projectForm div.custom-control.custom-checkbox label.custom-control-label{
+		position: relative;
+	    top: 32px;
+    }
+}
